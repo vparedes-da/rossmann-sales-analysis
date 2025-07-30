@@ -53,7 +53,7 @@ Conduct exploratory and diagnostic data analysis to understand how sales vary ac
 
 ---
 
-## Phase 4: Predictive Analysis *(optional)*
+## Phase 4: Predictive Analysis
 
 - Exploratory forecasting using historical data
 - Assessing the suitability of linear regression or time series models (e.g., moving average)
