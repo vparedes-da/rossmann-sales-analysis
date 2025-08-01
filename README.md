@@ -67,7 +67,7 @@ rossmann-sales-analysis/
 
 ---
 
-## 🙋‍♀️ About Me
+## About Me
 
 Hi! I’m Valentina, an Industrial Engineer transitioning into the field of Data Analytics. This project is part of my personal portfolio and learning path. I'm passionate about solving business problems through data and sharing what I learn with the community.
 
