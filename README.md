@@ -1,90 +1,80 @@
-## rossmann-sales-analysis
-Rossmann stores sales analysis in Alemania using SQL and Power BI
+# Rossmann Sales Analysis Project
 
-##  Rossmann Sales Analysis
+## Project Overview
 
-This project aims to analyze the sales performance of Rossmann drugstores across Germany using **SQL** for data exploration and **Power BI** for visualization. It also includes **diagnostic and potentially predictive analysis** to better understand the drivers behind sales patterns and identify actionable strategies.
+This project analyzes historical sales data from Rossmann stores across different German states. The goal is to identify key factors that influence sales performance and to develop actionable strategies to improve business outcomes through data analytics.
+
+The analysis is conducted using SQL for data handling and Power BI for visualizations. All findings and visual products are shared with the intention of building a professional data portfolio and fostering discussion on LinkedIn.
 
 ---
 
 ## Project Objective
 
-Conduct exploratory and diagnostic data analysis to understand how sales vary across store types, German states, calendar factors (day of week, holidays), and customer behavior. The project also explores the feasibility of a simple predictive model to forecast future sales trends.
+The primary goal of this project is to understand the key factors that drive sales in Rossmann stores and provide actionable insights to enhance sales performance.
+
+**Business Question**  
+_What factors drive sales in Rossmann stores, and how can we use them to optimize commercial performance at the regional and temporal level?_
+
+To answer this, we aim to:
+
+- Perform **descriptive analysis** to explore patterns by time, store type, and location.
+- Use **diagnostic analysis** to identify the factors that contribute to underperforming or outperforming stores.
+- Explore **predictive techniques** to forecast sales based on relevant features such as promotions, seasonality, and holidays.
+
+This project supports data-driven decision-making and aims to uncover strategies that could potentially increase sales by at least 5% compared to the previous year.
+
+---
+
+## Project Structure
+
+rossmann-sales-analysis/
+│
+├── 📁 data/ # Cleaned and raw data files (CSV format)
+├── 📁 sql_queries/ # SQL scripts for data cleaning and analysis
+├── 📁 powerbi/ # Power BI dashboards and reports
+├── 📁 notebooks/  Jupyter Notebooks for EDA or modeling
+├── 📁 reports/ # Visual summaries or final presentations
+├── README.md # Project documentation
+
 
 ---
 
 ## Tools & Technologies
 
-- **SQL** – Data cleaning and analysis  
-- **Power BI** – Interactive dashboards and visual storytelling  
-- **GitHub** – Project documentation and version control  
-- (Optionally: Excel or Python for diagnostics/predictions)
+- **SQL** – for querying and transforming data
+- **Power BI** – for data visualization and dashboarding
+- **Excel** – for initial review and data preparation
+- **Git & GitHub** – for version control and project documentation
 
 ---
 
-## Phase 1: Data Cleaning
+## Project Phases
 
-- Verified and corrected:
-  - Data types
-  - Missing values
-  - Duplicate records
-  - Outliers and inconsistent entries
-  - Date formatting
-  - Category consistency (`StoreType`, `StateHoliday`, etc.)
+1. **Data Cleaning**  
+   Standardized data types, handled nulls, ensured consistency across store-level attributes, and verified date integrity.
 
----
+2. **Exploratory Data Analysis (EDA)**  
+   Identification of sales trends by date, region, promotions, and store characteristics.
 
-## Phase 2: Exploratory Analysis
+3. **Diagnostic Analysis**  
+   Investigation of correlations and causal patterns to explain variations in performance.
 
-- Sales and customer distribution
-- Regional performance (by state)
-- Temporal patterns (month, weekday, holidays)
-- Comparison by store type and assortment level
+4. **Predictive Analysis (Planned)**  
+   Forecasting sales using statistical or machine learning models based on available variables.
+
+5. **Visualization & Reporting**  
+   Creation of interactive dashboards and visual reports to communicate insights clearly.
 
 ---
 
-## Phase 3: Diagnostic Analysis
+## 🙋‍♀️ About Me
 
-- Investigating relationships between:
-  - Number of customers and total sales
-  - Store characteristics and performance
-  - Holiday or seasonal impact on sales
-- Correlation matrix to identify influencing factors
+Hi! I’m Valentina, an Industrial Engineer transitioning into the field of Data Analytics. This project is part of my personal portfolio and learning path. I'm passionate about solving business problems through data and sharing what I learn with the community.
+
+Let’s connect on [LinkedIn](https://www.linkedin.com/in/vparedess) if you’d like to chat or collaborate!
 
 ---
 
-## Phase 4: Predictive Analysis
-
-- Exploratory forecasting using historical data
-- Assessing the suitability of linear regression or time series models (e.g., moving average)
-- Objective: estimate future sales trends or identify stores at risk of underperformance
-
----
-
-## Phase 5: Visualization
-
-- Power BI dashboard with interactive charts
-- KPIs by region, time, and store type
-- Map visualizations for geographic insights
-
----
-
-## Key Findings
 
 
-
----
-
-## Project Structure
-rossmann-sales-analysis/
-├── data/ # Input datasets
-├── sql_queries/ # SQL scripts
-├── powerbi/ # Power BI .pbix file
-├── images/ # Dashboard screenshots
-└── README.md # Project documentation
-
-## About Me
-
-This project is part of my personal data analytics portfolio.  
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/vparedess)
 
