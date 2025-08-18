@@ -43,7 +43,7 @@ rossmann-sales-analysis/
 
 - **SQL** – for querying and transforming data
 - **Power BI** – for data visualization and dashboarding
-- **Excel** – for initial review and data preparation
+- **Python** – for predictive model
 - **Git & GitHub** – for version control and project documentation
 
 ---
