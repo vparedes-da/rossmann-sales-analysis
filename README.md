@@ -1,5 +1,7 @@
 # Rossmann Sales Analysis Project
+
 Student: Valentina Paredes
+
 Presented to: Unicorn Academy
 
 ## Project Overview
