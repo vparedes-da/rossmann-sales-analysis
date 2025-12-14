@@ -36,7 +36,7 @@ Page 1 – Temporal & Regional Performance
 
 - Sales trend over time (Year–Month)
 
-- Sales by German state
+- Sales by State
 
 Global filters: Year, State
 
@@ -55,6 +55,8 @@ Page 2 – Seasonality, Store Type & Promotions
 
 Purpose
 Understand how seasonality and promotions interact with store characteristics.
+
+Page 3 - Key Insights and Business Implications
 
 # Key Insights
 
@@ -75,3 +77,6 @@ Short bullets:
 - page_1_dashboard.png → Static preview of the dashboard
   
 - page_2_dashboard.png → Static preview of the dashboard
+
+- insights_diagnosis.pns → Key Insights and Business Implications
+- 
