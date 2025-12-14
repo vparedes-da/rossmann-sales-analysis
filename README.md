@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes historical sales data from Rossmann stores across different German states. The goal is to identify key factors that influence sales performance and to develop actionable strategies to improve business outcomes through data analytics.
+This project analyzes historical sales data from Rossmann stores across different German states (public data base in kaggle). The goal is to identify key factors that influence sales performance and to develop actionable strategies to improve business outcomes through data analytics.
 
 The analysis is conducted using SQL for data handling and Power BI for visualizations. All findings and visual products are shared with the intention of building a professional data portfolio and fostering discussion on LinkedIn.
 
@@ -19,7 +19,7 @@ To answer this, we aim to:
 
 - Perform **descriptive analysis** to explore patterns by time, store type, and location.
 - Use **diagnostic analysis** to identify the factors that contribute to underperforming or outperforming stores.
-- Explore **predictive techniques** to forecast sales based on relevant features such as promotions, seasonality, and holidays.
+- A predictive modeling phase (e.g., sales forecasting) is planned as future work and may be developed in a subsequent iteration of the project.
 
 This project supports data-driven decision-making and aims to uncover strategies that could potentially increase sales by at least 5% compared to the previous year.
 
@@ -27,14 +27,13 @@ This project supports data-driven decision-making and aims to uncover strategies
 
 ## Project Structure
 
+Every file have a readme where more information about the content can be found.
 rossmann-sales-analysis/
 │
 ├── 📁 data/ # Cleaned and raw data files (CSV format)
-├── 📁 sql_queries/ # SQL scripts for data cleaning and analysis
-├── 📁 powerbi/ # Power BI dashboards and reports
-├── 📁 notebooks/  Jupyter Notebooks for EDA or modeling
-├── 📁 reports/ # Visual summaries or final presentations
-├── README.md # Project documentation
+├── 📁 sql_queries/ # SQL scripts for data cleaning and features creations
+├── 📁 powerbi/ # Power BI analysis, dashboards and reports
+
 
 
 ---
@@ -43,7 +42,7 @@ rossmann-sales-analysis/
 
 - **SQL** – for querying and transforming data
 - **Power BI** – for data visualization and dashboarding
-- **Python** – for predictive model
+- ** Power Query** - for new mesures and analysis
 - **Git & GitHub** – for version control and project documentation
 
 ---
@@ -59,10 +58,7 @@ rossmann-sales-analysis/
 3. **Diagnostic Analysis**  
    Investigation of correlations and causal patterns to explain variations in performance.
 
-4. **Predictive Analysis (Planned)**  
-   Forecasting sales using statistical or machine learning models based on available variables.
-
-5. **Visualization & Reporting**  
+4. **Visualization & Reporting**  
    Creation of interactive dashboards and visual reports to communicate insights clearly.
 
 ---
